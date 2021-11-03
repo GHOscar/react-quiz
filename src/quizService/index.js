@@ -368,7 +368,38 @@ const qBank = [
     answers: ["McDonald's", "Burger King", "Wendy's", "Arby's"],
     correct: "Arby's",
     questionId: "4982981"
-  }
+  },
+  {
+    question: "Who is the best JavaScript teacher?",
+    answers: ["Web Dev Simplified", "Magic Max", "Programming with Mosh", "Kevin Powell"],
+    correct: "Magic Max",
+    questionId: "1337"
+  },
+  {
+    question: "What is Prince William's full name?",
+    answers: ["William Arthur Philip Louis", "William Arthur Saint Louis", "William Peterson", "William Philips III"],
+    correct: "William Arthur Philip Louis",
+    questionId: "1338"
+  },
+  {
+    question: "What year was Scarface released?",
+    answers: ["1986", "1990", "1984", "1979"],
+    correct: "1984",
+    questionId: "1339"
+  },
+  {
+    question: "Who was the youngest British Prime Minister?",
+    answers: ["Brad Pitt", "William Pitt the Younger", "Augustus FitzRoy, 3rd Duke of Grafton", "David Cameron"],
+    correct: "William Pitt the Younger",
+    questionId: "1340"
+  },
+  {
+    question: "What is the world record for the world's longest far?",
+    answers: ["2 minutes, 40 seconds", "3 minutes, 2 seconds", "9 minutes, 11 seconds", "1 minute, 54 seconds"],
+    correct: "2 minutes, 40 seconds",
+    questionId: "1341"
+  },
+  
 ];
 
 export default (n = 5) =>

@@ -86,3 +86,8 @@
   outline: none;
   cursor: pointer;
 }
+
+.footer {
+  position: fixed;
+  bottom: 85px;
+}
